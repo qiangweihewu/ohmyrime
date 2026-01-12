@@ -1,0 +1,183 @@
+---
+name: theology
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+# 圣经书卷 - 旧约
+创世记	chuang shi ji	100
+出埃及记	chu ai ji ji	100
+利未记	li wei ji	100
+民数记	min shu ji	100
+申命记	shen ming ji	100
+约书亚记	yue shu ya ji	100
+士师记	shi shi ji	100
+路得记	lu de ji	100
+撒母耳记上	sa mu er ji shang	100
+撒母耳记下	sa mu er ji xia	100
+列王纪上	lie wang ji shang	100
+列王纪下	lie wang ji xia	100
+历代志上	li dai zhi shang	100
+历代志下	li dai zhi xia	100
+以斯拉记	yi si la ji	100
+尼希米记	ni xi mi ji	100
+以斯帖记	yi si tie ji	100
+约伯记	yue bo ji	100
+诗篇	shi pian	100
+箴言	zhen yan	100
+传道书	chuan dao shu	100
+雅歌	ya ge	100
+以赛亚书	yi sai ya shu	100
+耶利米书	ye li mi shu	100
+耶利米哀歌	ye li mi ai ge	100
+以西结书	yi xi jie shu	100
+但以理书	dan yi li shu	100
+何西阿书	he xi a shu	100
+约珥书	yue er shu	100
+阿摩司书	a mo si shu	100
+俄巴底亚书	e ba di ya shu	100
+约拿书	yue na shu	100
+弥迦书	mi jia shu	100
+那鸿书	na hong shu	100
+哈巴谷书	ha ba gu shu	100
+西番雅书	xi fan ya shu	100
+哈该书	ha gai shu	100
+撒迦利亚书	sa jia li ya shu	100
+玛拉基书	ma la ji shu	100
+
+# 圣经书卷 - 新约
+马太福音	ma tai fu yin	100
+马可福音	ma ke fu yin	100
+路加福音	lu jia fu yin	100
+约翰福音	yue han fu yin	100
+使徒行传	shi tu xing zhuan	100
+罗马书	luo ma shu	100
+哥林多前书	ge lin duo qian shu	100
+哥林多后书	ge lin duo hou shu	100
+加拉太书	jia la tai shu	100
+以弗所书	yi fu suo shu	100
+腓立比书	fei li bi shu	100
+歌罗西书	ge luo xi shu	100
+帖撒罗尼迦前书	tie sa luo ni jia qian shu	100
+帖撒罗尼迦后书	tie sa luo ni jia hou shu	100
+提摩太前书	ti mo tai qian shu	100
+提摩太后书	ti mo tai hou shu	100
+提多书	ti duo shu	100
+腓利门书	fei li men shu	100
+希伯来书	xi bo lai shu	100
+雅各书	ya ge shu	100
+彼得前书	bi de qian shu	100
+彼得后书	bi de hou shu	100
+约翰一书	yue han yi shu	100
+约翰二书	yue han er shu	100
+约翰三书	yue han san shu	100
+犹大书	you da shu	100
+启示录	qi shi lu	100
+
+# 核心神学词汇
+三位一体	san wei yi ti	500
+耶和华	ye he hua	500
+耶稣基督	ye su ji du	500
+圣灵	sheng ling	500
+救恩	jiu en	500
+因信称义	yin xin cheng yi	500
+重生	chong sheng	500
+成圣	cheng sheng	500
+道成肉身	dao cheng rou shen	500
+十字架	shi zi jia	500
+复活	fu huo	500
+永生	yong sheng	500
+天国	tian guo	500
+福音	fu yin	500
+恩典	en dian	500
+慈爱	ci ai	500
+公义	gong yi	500
+圣洁	sheng jie	500
+荣耀	rong yao	500
+怜悯	lian min	500
+悔改	hui gai	500
+赦免	she mian	500
+救赎	jiu shu	500
+预定	yu ding	400
+拣选	jian xuan	400
+盟约	meng yue	400
+启示	qi shi	400
+默示	mo shi	400
+原罪	yuan zui	400
+堕落	duo luo	400
+审判	shen pan	400
+撒旦	sa dan	400
+异端	yi duan	300
+护教	hu jiao	300
+释经	shi jing	300
+神学	shen xue	300
+教会论	jiao hui lun	300
+末世论	mo shi lun	300
+基督论	ji du lun	300
+救恩论	jiu en lun	300
+圣灵论	sheng ling lun	300
+人论	ren lun	300
+神论	shen lun	300
+
+# 教会生活与事奉
+教会	jiao hui	500
+崇拜	chong bai	500
+礼拜	li bai	500
+讲道	jiang dao	500
+证道	zheng dao	500
+祈祷	qi dao	500
+祷告	dao gao	500
+赞美	zan mei	500
+敬拜	jing bai	500
+圣餐	sheng can	500
+洗礼	xi li	500
+浸礼	jin li	500
+团契	tuan qi	500
+小组	xiao zu	400
+牧师	mu shi	500
+传道	chuan dao	500
+长老	zhang lao	400
+执事	zhi shi	400
+弟兄	di xiong	500
+姊妹	zi mei	500
+肢体	zhi ti	400
+同工	tong gong	400
+宣教	xuan jiao	500
+传福音	chuan fu yin	500
+见证	jian zheng	500
+奉献	feng xian	500
+什一奉献	shi yi feng xian	400
+灵修	ling xiu	500
+读经	du jing	500
+默想	mo xiang	400
+门徒训练	men tu xun lian	400
+主日学	zhu ri xue	400
+查经	cha jing	400
+大公教会	da gong jiao hui	300
+信经	xin jing	300
+使徒信经	shi tu xin jing	300
+尼西亚信经	ni xi ya xin jing	300
+亚他那修信经	ya ta na xiu xin jing	300
+
+# 常用短语
+阿们	a men	1000
+哈利路亚	ha li lu ya	1000
+以马内利	yi ma nei li	500
+感谢主	gan xie zhu	1000
+赞美主	zan mei zhu	1000
+求主怜悯	qiu zhu lian min	500
+主内平安	zhu nei ping an	500
+愿主赐福	yuan zhu ci fu	500
+平安	ping an	500
+喜乐	xi le	500
+盼望	pan wang	500
+信心	xin xin	500
+爱心	ai xin	500
+彼此相爱	bi ci xiang ai	500
+这里有爱	zhe li you ai	300
+荣神益人	rong shen yi ren	300
+作光作盐	zuo guang zuo yan	300
+背起十字架	bei qi shi zi jia	300
+跟随主	gen sui zhu	500
+

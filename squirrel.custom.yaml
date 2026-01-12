@@ -1,0 +1,56 @@
+# squirrel.custom.yaml
+patch:
+  # 界面样式
+  style:
+    # 启用自定义配色方案
+    color_scheme: macos_native
+    # 候选词水平排列 (linear: 水平, stacked: 垂直)
+    candidate_list_layout: linear
+    # 文本方向
+    text_orientation: horizontal
+    # 内嵌预编辑 (true: 在输入位置显示拼音, false: 在候选框显示拼音)
+    inline_preedit: true
+    # 候选词圆角
+    corner_radius: 6
+    # 边框高度/宽度
+    border_height: 6
+    border_width: 6
+    # 字体
+    font_face: "PingFang SC"
+    font_point: 16
+    label_font_point: 14
+
+  # 自定义配色方案
+  preset_color_schemes:
+    macos_native:
+      name: MacOS Native
+      author: Agent regarding User Request
+      # 磨砂背景 (macOS 风格)
+      translucency: true
+      # 窗口底色 (白色)
+      back_color: 0xFFFFFF
+      # 边框颜色 (浅灰)
+      border_color: 0xE2E2E2
+      # 拼音文字颜色
+      text_color: 0x424242
+      # 候选词文字颜色
+      candidate_text_color: 0x333333
+      # 序号颜色 (灰色)
+      label_color: 0x888888
+      # 提示文字/注音颜色
+      comment_text_color: 0x999999
+      
+      # 高亮/选中状态
+      # 高亮拼音颜色
+      hilited_text_color: 0x000000
+      # 高亮候选词背景色 (macOS 蓝色: 0x007AFF -> BGR: 0xFF7A00 左右，这里用近似色)
+      # Squirrel 颜色是 BGR (0xBBGGRR)
+      # macOS Blue is roughly #007AFF -> R:00 G:7A B:FF
+      # BGR: 0xFF7A00
+      hilited_candidate_back_color: 0xFF7A00
+      # 高亮候选词文字颜色 (白色)
+      hilited_candidate_text_color: 0xFFFFFF
+      # 高亮序号颜色 (白色)
+      hilited_candidate_label_color: 0xFFFFFF
+      # 高亮提示文字颜色 (浅蓝/白)
+      hilited_comment_text_color: 0xDDF0FF

@@ -1,0 +1,9 @@
+build/
+*.userdb/
+*.txt
+*.bin
+*.userlog
+/installation.yaml
+/user.yaml
+.DS_Store
+*.log
