@@ -1,4 +1,15 @@
 patch:
+  # 仅中文：不挂载英文子翻译器/中英混输；ascii_mode 默认「中文」（见 switches/@0）
+  switches/@0/reset: 0
+  # 必须在方案层写全 ascii_composer：仅改 default.custom 时，Shift 仍可能沿用 default.yaml 的 inline_ascii
+  ascii_composer:
+    good_old_caps_lock: false
+    switch_key:
+      Caps_Lock: noop
+      Control_L: noop
+      Control_R: noop
+      Shift_L: noop
+      Shift_R: noop
   # 在中文候选前部增加个人短语词库，提升高频词命中
   custom_phrase:
     dictionary: custom_phrase
@@ -9,7 +20,7 @@ patch:
     initial_quality: 1.6
     comment_format:
       - xform/^.+$//
-  # 关闭英文混输候选，仅保留中文主翻译路径
+  # 关闭 melt_eng / cn_en 与英文相关滤镜，仅保留中文主路径与反查等
   engine/translators:
     - punct_translator
     - script_translator

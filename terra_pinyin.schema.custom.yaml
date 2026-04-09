@@ -8,32 +8,20 @@ patch:
       Control_R: noop
       Shift_L: noop
       Shift_R: noop
-  # 在中文候选前部增加个人短语词库，提升高频词命中
-  custom_phrase:
-    dictionary: custom_phrase
-    user_dict: custom_phrase.userdb
-    db_class: stabledb
-    enable_completion: false
-    enable_sentence: false
-    initial_quality: 1.6
-    comment_format:
-      - xform/^.+$//
-  # 关闭 melt_eng / cn_en 与英文相关滤镜
+  # 移除 melt_eng、英文自动大写与英文降频滤镜，仅保留中文路径
   engine/translators:
-    - punct_translator
-    - script_translator
-    - table_translator@custom_phrase
     - lua_translator@*shijian
     - lua_translator@*number_translator
     - lua_translator@*chineseLunarCalendar_translator
     - lua_translator@*mint_calculator_translator
-    - reverse_lookup_translator@radical_reverse_lookup
+    - punct_translator
+    - table_translator@custom_phrase
     - reverse_lookup_translator@wubi98_mint
+    - reverse_lookup_translator@radical_reverse_lookup
     - reverse_lookup_translator@stroke
+    - script_translator
     - lua_translator@*force_gc
   engine/filters:
-    - lua_filter@*corrector_filter
-    - lua_filter@*super_preedit
     - simplifier@emoji_suggestion
     - simplifier@transcription_cc
     - uniquifier

@@ -15,8 +15,8 @@ patch:
     # 候选区间距
     line_spacing: 5
     spacing: 8
-    # 显示可点击翻页按钮（上/下页）
-    show_paging: true
+    # 显示可点击翻页按钮（上/下页）；横排时常在候选栏一侧出现小控件，不需要可关
+    show_paging: false
     # 候选词圆角
     corner_radius: 6
     # 高亮项圆角，和整体圆角风格一致

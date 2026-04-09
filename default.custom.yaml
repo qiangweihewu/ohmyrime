@@ -1,7 +1,9 @@
 patch:
   # 每页候选 5 个
   menu/page_size: 5
-  # 移除默认层的中/英切换快捷键，并禁用右 Shift 临时英文
+  # 关闭 Caps Lock「经典」西文模式；Shift 用 noop，避免沿用 default.yaml 的 inline_ascii
+  ascii_composer/good_old_caps_lock: false
+  # 移除默认层的中/英切换快捷键
   key_binder/bindings:
     - { when: composing, accept: Control+p, send: Up }
     - { when: composing, accept: Control+n, send: Down }
@@ -30,8 +32,8 @@ patch:
     - { when: always, accept: Shift+space, toggle: full_shape }
     - { when: always, accept: Control+period, toggle: ascii_punct }
   ascii_composer/switch_key:
-    Caps_Lock: commit_code
+    Caps_Lock: noop
     Control_L: noop
     Control_R: noop
-    Shift_L: commit_code
-    Shift_R: commit_code
+    Shift_L: noop
+    Shift_R: noop

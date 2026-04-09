@@ -8,21 +8,9 @@ patch:
       Control_R: noop
       Shift_L: noop
       Shift_R: noop
-  # 在中文候选前部增加个人短语词库，提升高频词命中
-  custom_phrase:
-    dictionary: custom_phrase
-    user_dict: custom_phrase.userdb
-    db_class: stabledb
-    enable_completion: false
-    enable_sentence: false
-    initial_quality: 1.6
-    comment_format:
-      - xform/^.+$//
-  # 关闭 melt_eng / cn_en 与英文相关滤镜
   engine/translators:
     - punct_translator
     - script_translator
-    - table_translator@custom_phrase
     - lua_translator@*shijian
     - lua_translator@*number_translator
     - lua_translator@*chineseLunarCalendar_translator
@@ -36,4 +24,6 @@ patch:
     - lua_filter@*super_preedit
     - simplifier@emoji_suggestion
     - simplifier@transcription_cc
+    - simplifier@chaifen_cc
+    - lua_filter@*auxCode_filter@flypy_full
     - uniquifier
