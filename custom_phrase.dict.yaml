@@ -1,0 +1,16 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 个人短语词库（可持续维护）
+# 格式：词条<Tab>编码<Tab>权重
+
+---
+name: custom_phrase
+version: "2026.04.09"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+# 示例（按需取消注释并改成你的习惯）
+# 你好呀	nihaoya	100000
+# 没问题	meiwenti	100000

@@ -4,21 +4,31 @@ patch:
   style:
     # 启用自定义配色方案
     color_scheme: macos_native
-    # 候选词水平排列 (linear: 水平, stacked: 垂直)
+    # 候选词排列 (linear: 水平, stacked: 垂直)
     candidate_list_layout: linear
+    # 横排候选词格式（序号 + 候选词）
+    candidate_format: "%c %@"
     # 文本方向
     text_orientation: horizontal
     # 内嵌预编辑 (true: 在输入位置显示拼音, false: 在候选框显示拼音)
     inline_preedit: true
+    # 候选区间距
+    line_spacing: 5
+    spacing: 8
+    # 显示可点击翻页按钮（上/下页）
+    show_paging: true
     # 候选词圆角
     corner_radius: 6
+    # 高亮项圆角，和整体圆角风格一致
+    hilited_corner_radius: 6
     # 边框高度/宽度
     border_height: 6
     border_width: 6
     # 字体
     font_face: "PingFang SC"
     font_point: 16
-    label_font_point: 14
+    label_font_point: 13
+    comment_font_point: 13
 
   # 自定义配色方案
   preset_color_schemes:
